@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Login_Images/log1.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Login_Images/log2.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Login_Images/log3.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Login_Images/log4.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Login_Images/log5.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Login_Images/log6.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Login_Images/log7.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Login_Images/log8.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Login_Images/log9.jpg</ImageUrl>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Login_Images/log10.jpg</ImageUrl>
+  </Ad>
+</Advertisements>

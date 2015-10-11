@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<%--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">--%>
+<link rel="stylesheet" href="Files/bootstrap.min.css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+     
+<head runat="server">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Safe Online Banking</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript">
+        function content_click()
+        {
+            alert("Not Allowed");
+        }
+    </script>
+</head>
+   
+<body oncontextmenu="content_click(); return false;" style="background:url(wild_flowers.png)">
+    <!-- start header -->     
+<div id="header">
+	<div id="menu">
+		<ul>
+			<li class="active"><a href="Home.aspx"><b><i>Home</i></b></a></li>
+			<li class="active"><a href="Complain.aspx"><b><i>Complain</i></b></a></li>
+			<li class="active"><a href="Registration.aspx"><b><i>Registration</i></b></a></li>
+			<li class="active"><a href="AboutUs.aspx"><b><i>About US</i></b></a></li>
+			<li class="active"><a href="ContactUs.aspx"><b><i>Contact US</i></b></a></li>
+		</ul>
+	    
+	</div>
+	<div id="logo">
+		<h1><i><b>Online Banking</b></i></h1>
+	</div>
+</div>
+    
+<!-- end header -->
+
+  <asp:ContentPlaceHolder id="head" runat="server"> 
+<!-- start page -->
+<!-- start content -->
+<div id="page">
+	
+	
+</div>
+<!-- end content -->
+<!-- end page -->
+ </asp:ContentPlaceHolder>
+<div id="footer">
+	<p id="legal">&copy; 2013 All Rights Reserved. | Designed by Zenith Team</p>
+	<p id="links"><a href="#">Privacy</a> | <a href="#">Terms</a> | <a href="#">Cookies</a> |<a href="#">XTHL</a> | <a href="#">Settings</a> | <a href="ContactUs.aspx">Contact us</a> | <a href="#">Feedback</a></p>
+</div>
+</body>
+        
+</html>
